@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+body{
+	font-size:16px;
+	font-family:微软雅黑;
+	background-color:#f4f4f4;
+}
+a:link{
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	color:#ff5000;
+}
+a:active{
+	color:#ff5000;
+}
+a:visit{
+	color:black;
+}
+.myCart{
+	margin-left:450px;
+	margin-top:50px;
+	float:left;
+}
+.head{
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+.good{
+	display:flex;
+	flex-wrap:wrap;
+	position:relative;
+	margin-bottom:50px;
+}
+.good .pic img{
+	width:180px;
+	height:180px;
+}
+.good .content{
+	flex:1;
+	margin-left:10px;
+}
+.numInfo .price{
+	color:#ff5000;
+	font-weight:bolder;
+}
+.numInfo .num{
+	margin-left:10px;
+}
+.numInfo .action{
+	margin-top:10px;
+}
+.checkCart{
+	margin-bottom:100px;
+	text-align:center;
+}
+
+.empty{
+	margin-left:210px;
+}
+.empty .pic img{
+	width:180px;
+	height:180px;
+	margin-left:20px;
+}
+.ehead{
+	text-align:center;
+	font-size:20px;
+	color:#464646;
+}
+.econtent{
+	font-size:14px;
+	color:#afaeae;
+}
+
+.bottom{
+	margin-top:10px;
+}
+.bottom .clear{
+	margin-left:50px;
+}
